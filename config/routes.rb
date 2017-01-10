@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   resources :measure_categories
   resources :measure_indicators
   resources :recommendation_categories
+  resources :user_categories
   resources :recommendation_measures
   resources :progress_reports
   devise_for :users
